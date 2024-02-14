@@ -1,0 +1,28 @@
+##Swagger
+#springdoc:
+#  api-docs:
+#    path: /api-docs
+#  swagger-ui:
+#    path:
+#    enabled: true
+
+
+
+##Actuator
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#      base-path: /admin
+#      path-mapping:s
+#        health: healthCheck
+#        info: applicationInfo
+#        metrics: performanceMetrics
+#  endpoint:
+#    health:
+#      show-details: always
+#    info:
+#      enabled: true
+
+
